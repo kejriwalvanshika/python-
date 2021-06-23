@@ -1,0 +1,11 @@
+import math
+from math import pi
+radius=float(input ("Input radius of the circle :"))
+print ("The area of the circle with radius" + str(radius) + "is:" + str(pi*radius**2))
+
+###########################################################################################
+
+ab= input("Enter Filename: ")
+
+a = ab.split(".")
+print ("Extension of the file is : " + a[1])
